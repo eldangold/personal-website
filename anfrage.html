@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form-desktop.css" />
+    <title>Anfrage senden - Eldan Gold</title>
+  </head>
+
+  <body>
+    <h1>Anfrage senden</h1>
+    <div class="form-main-container">
+      <form name="contact" method="POST" netlify>
+        <label>Name*<input class="form-data" type="text" name="name" required /></label>
+        <label>Email*<input class="form-data" type="email" name="email" required /></label>
+        <label>Telefonnummer<input class="form-data" type="tel" name="tel" /></label>
+        <label
+          >Ihr Anliegen*<textarea name="message" required></textarea>
+        </label>
+        <label
+          ><input type="checkbox" name="netlify-privacy-policy" required
+          />Ich verwende Netlify, um Anfragen zu bearbeiten. Beim Absenden
+          stimmen Sie Netlifys
+          <a href="https://netlify.com/privacy/">Datenschutzerklärung</a> zu.
+          Netlify ist <a href="https://netlify.com/gdpr-ccpa/">DSGVO-konform</a
+          ></label>
+        <button type="submit">Senden</button>
+      </form>
+    </div>
+
+    <footer>
+      <p class="footer-text">
+        Eldan Gold © 2025. Es wurde keine kommerzielle Grafik verwendet
+      </p>
+    </footer>
+  </body>
+</html>

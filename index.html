@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-desktop.css" />
+    <link rel="stylesheet" href="style-mobile.css" />
+    <title>Eldan Gold</title>
+  </head>
+
+  <body>
+    <h1>Eldan Gold</h1>
+    <div class="head-container">
+      <div class="contact-options">
+        <button class="contact-options-button btn-grad">
+          <a href="https://linkedin.com/in/eldangold/">LinkedIn</a>
+        </button>
+        <button class="contact-options-button btn-grad">
+          <a href="https://github.com/eldangold">GitHub</a>
+        </button>
+        <button class="contact-options-button btn-grad">
+          <a href="linkedin.com"
+            >Lebenslauf als Datei abrufen (ohne sensible Daten)</a
+          >
+        </button>
+      </div>
+      <img src="/images/my-photo.JPG" class="my-photo" />
+    </div>
+    <div class="main-container">
+      <ul>
+        <input type="checkbox" id="list-item-2" checked />
+        <label for="list-item-2" class="collapsible">Über mich</label>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </li>
+        </ul>
+        <li>
+          <input type="checkbox" id="CV" />
+          <label for="CV" class="collapsible">Mein Lebenslauf</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="education" />
+              <label for="education" class="collapsible">Werdegang</label>
+              <ul>
+                <li>
+                  06/2024 – 12/2024<br />Berufsunterstützendes Coaching „Primero
+                  2.0“<br />gsm GmbH, Friedrichsdorf
+                  <ul
+                    style="list-style-type: circle; padding-inline-start: 25px"
+                  >
+                    <li>Erarbeitung von beruflichen Zielen</li>
+                    <li>Entwicklung neuer Perspektiven</li>
+                    <li>Ausbau von persönlichen Stärken</li>
+                    <li>Optimierung der Bewerbungsunterlagen</li>
+                  </ul>
+                </li>
+                <li>
+                  02/2024 – 06/2024<br />Sprachqualifizierung Deutsch B2 (mit
+                  Zertifikat)<br />VHS Bad Homburg
+                </li>
+                <li>
+                  10/2022 – 11/2023<br />Sprachqualifizierung Deutsch B1 (mit
+                  Zertifikat)<br />Internationaler Bund (IB) e.V. Oberursel
+                </li>
+                <li>
+                  09/2011 – 06/2022<br />Schule Nr. 141 „ORT“ (Kyjiw, Ukraine)
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <input type="checkbox" id="knowledge" />
+              <label for="knowledge" class="collapsible">Kenntnisse</label>
+              <ul>
+                <li>
+                  <input type="checkbox" id="languages" />
+                  <label for="languages" class="collapsible">Sprachen</label>
+                  <ul>
+                    <li>Deutsch: gute Kenntnisse in Wort und Schrift</li>
+                    <li>Englisch: fließend</li>
+                    <li>Ukrainisch: 1. Muttersprache</li>
+                    <li>Russisch: 2. Muttersprache</li>
+                  </ul>
+                </li>
+                <li>
+                  <input type="checkbox" id="software" />
+                  <label for="software" class="collapsible">Software</label>
+                  <ul>
+                    <li>Microsoft Office: erweiterte Kenntnisse</li>
+                    <li>Linux: erweiterte Kenntnisse</li>
+                    <li>HTML, CSS, JavaScript: Grundkenntnisse</li>
+                    <li><a href="github.com/eldangold">GitHub</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <input type="checkbox" id="interessen" />
+              <label for="interessen" class="collapsible">Interessen</label>
+              <ul>
+                <li>Webentwicklung</li>
+                <li>Schach spielen</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <strong class="privacy-warning">
+        Wichtig: aus datenschutzrechtlichen Gründen stelle ich hier keine
+        sensible Daten zur Verfügung. Diese Webseite ersetzt
+        Bewerbungsunterlagen NICHT.<br />
+        Möchten Sie mehr Informationen (wie z.B das Anschreiben) haben? Dann
+        füllen Sie bitte ein <a href="anfrage.html">Formular</a> aus.
+      </strong>
+      <div class="form-main-container">
+        <form name="contact" method="POST" netlify>
+          <label>Name*<input class="form-data" type="text" name="name" required /></label>
+          <label>Email*<input class="form-data" type="email" name="email" required /></label>
+          <label>Telefonnummer<input class="form-data" type="tel" name="tel" /></label>
+          <label
+            >Ihr Anliegen*<textarea name="message" required></textarea>
+          </label>
+          <label
+            ><input type="checkbox" name="netlify-privacy-policy" required
+            />Ich verwende Netlify, um Anfragen zu bearbeiten. Beim Absenden
+            stimmen Sie Netlifys
+            <a href="https://netlify.com/privacy/">Datenschutzerklärung</a> zu.
+            Netlify ist <a href="https://netlify.com/gdpr-ccpa/">DSGVO-konform</a
+            ></label>
+          <button type="submit">Senden</button>
+        </form>
+      </div>
+      
+    </div>
+
+    <footer>
+      <p class="footer-text">
+        Eldan Gold © 2025. Es wurde keine kommerzielle Grafik verwendet
+      </p>
+    </footer>
+  </body>
+</html>
