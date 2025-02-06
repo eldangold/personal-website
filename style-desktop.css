@@ -208,3 +208,14 @@ input[type="checkbox"] {
   margin-right: 4px;
   vertical-align: middle;
 }
+
+@media (min-width: 768px) {
+  .about-me {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me > li {
+    width: 60%;
+  }
+}
