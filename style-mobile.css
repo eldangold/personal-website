@@ -1,39 +1,30 @@
 @media (max-width: 600px) {
-    .main-container {
-      background-color: white;
-      border-radius: 20px;
-      margin: 40px;
-      padding: 20px;
-    }
-  
-    .head-container {
-      display: flex;
-      flex-direction: column-reverse;
-      margin: 40px;
-      padding: 20px;
-      gap: 20px;
-      height: unset;
-    }
-  
-    .my-photo {
-      width: 100%;
-    }
-  
-    .contact-options-button {
-      height: 10%;
-    }
-  
-    .contact-options {
-    height: unset;
-      gap: 10px;
-    }
+  .main-container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
   }
 
+  .head-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 40px;
+    padding: 10px;
+    gap: 10px;
+    height: unset;
+  }
 
-  @media (max-width: 800px) { 
-    .head-container {
-        margin: 30px;
-        padding: 10px;
-        gap: 10px;
-      }
+  .my-photo {
+    width: 100%;
+  }
+
+  .contact-options-button {
+    height: 10%;
+  }
+
+  .contact-options {
+    height: unset;
+    gap: 10px;
+  }
 }
