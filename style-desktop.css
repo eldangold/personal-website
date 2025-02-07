@@ -157,6 +157,7 @@ textarea {
 .form-privacy-label {
   display: block;
   vertical-align: middle;
+  margin: 20px 0px 20px 0px;
 }
 
 input[type="checkbox"] {
@@ -164,6 +165,26 @@ input[type="checkbox"] {
   height: 25px;
   margin-right: 4px;
   vertical-align: middle;
+}
+
+.send-form-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #4a4453;
+  color: lightgray;
+  font-size: 1.35em;
+  width: 70%;
+  height: 5vh;
+  margin-bottom: 20px;
+}
+
+.contact-form-block {
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
