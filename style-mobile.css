@@ -1,3 +1,13 @@
+@xmedia (max-width: 768px) {
+  .head-container {
+    height: 450px;
+  }
+
+  .contact-options {
+    width: 50%;
+  }
+}
+
 @media (max-width: 600px) {
   .main-container {
     background-color: white;
