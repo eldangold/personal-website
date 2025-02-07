@@ -59,7 +59,7 @@ h1 {
   display: block;
   cursor: pointer;
   padding: 10px;
-  background-color: lightblue;
+  background-color: lightsteelblue;
   border-radius: 10px;
 }
 
@@ -123,30 +123,13 @@ ul {
 .contact-options-button {
   border-radius: 5px;
   border-style: none;
-  background-color: lightsteelblue;
+  background-color: #4a4453;
   height: 20%;
   padding: 1vw;
 }
 
-.btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #eacda3 0%,
-    #d6ae7b 51%,
-    #eacda3 100%
-  );
-}
-.btn-grad {
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-}
-
-.btn-grad:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
+.contact-options-button > a {
+  color: lightgray;
 }
 
 .form-main-container {
@@ -159,14 +142,14 @@ ul {
 footer {
   display: flex;
   align-items: center;
-  background-color: lightblue;
-  background-color: darkgray;
+  background-color: #222027;
   justify-content: center;
   margin-top: auto;
 }
 
 .footer-text {
-  font-size: 1.5em;
+  color: lightgray;
+  font-size: 1.35em;
   text-align: center;
   line-height: 1.5;
 }
