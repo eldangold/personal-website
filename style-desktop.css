@@ -42,7 +42,6 @@ h1 {
 }
 
 .contact-options a {
-  text-decoration: none;
   font-size: 1.5em;
 }
 
@@ -94,6 +93,11 @@ ul {
   list-style-type: none;
 }
 
+.nested-cv-list {
+ list-style-type: circle;
+ padding-inline-start: 25px;
+}
+
 .head-container {
   display: flex;
   justify-content: space-around;
@@ -122,7 +126,6 @@ ul {
   border-style: none;
   background-color: #4a4453;
   height: 20%;
-  padding: 1vw;
 }
 
 .contact-options-button > a {

@@ -58,9 +58,7 @@
                 <li>
                   11/11/2024 – 15/11/2024<br />Freiwilliges Praktikum
                   <br />upjers GmbH, Bamberg
-                  <ul
-                    style="list-style-type: circle; padding-inline-start: 25px"
-                  >
+                  <ul class="nested-cv-list">
                     <li>Erstellung einer Website mit HTML + CSS</li>
                     <li>Einführung in PHP</li>
                     <li>
@@ -72,9 +70,7 @@
                 <li>
                   06/2024 – 12/2024<br />Berufsunterstützendes Coaching „Primero
                   2.0“<br />gsm GmbH, Friedrichsdorf
-                  <ul
-                    style="list-style-type: circle; padding-inline-start: 25px"
-                  >
+                  <ul class="nested-cv-list">
                     <li>Optimierung der Bewerbungsunterlagen</li>
                     <li>Sprachförderung</li>
                   </ul>
@@ -152,10 +148,20 @@
       <div class="form-main-container">
         <form name="contact" method="POST" class="contact-form-block" netlify>
           <label
-            >Name*<input class="form-data" type="text" name="name" required
+            >Name*<input
+              class="form-data"
+              type="text"
+              name="name"
+              autocomplete="on"
+              required
           /></label>
           <label
-            >Email*<input class="form-data" type="email" name="email" required
+            >Email*<input
+              class="form-data"
+              type="email"
+              name="email"
+              autocomplete="on"
+              required
           /></label>
           <label
             >Telefonnummer<input
@@ -163,6 +169,7 @@
               type="tel"
               name="tel"
               pattern="^\+?\d+-?[0-9]+-?[0-9]+$"
+              autocomplete="on"
           /></label>
           <label
             >Ihr Anliegen*<textarea name="message" required></textarea>

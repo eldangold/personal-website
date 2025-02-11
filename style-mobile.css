@@ -1,9 +1,6 @@
 @media (max-width: 600px) {
   .main-container {
-    background-color: white;
-    border-radius: 20px;
     margin: 40px;
-    padding: 20px;
   }
 
   .head-container {
@@ -19,12 +16,7 @@
     width: 100%;
   }
 
-  .contact-options-button {
-    height: 10%;
-  }
-
   .contact-options {
-    height: unset;
     width: 100%;
     gap: 10px;
   }
